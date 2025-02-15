@@ -58,6 +58,9 @@ npm run dev
    - In the "Pages" section:
      - Select "GitHub Actions" as the source
      - Set "Branch" to "gh-pages"
+   - In "Actions" > "General" > "Workflow permissions":
+     - Select "Read and write permissions"
+     - Click "Save"
 
 2. Create the deployment workflow:
    - Create `.github/workflows/deploy.yml` file:
@@ -67,6 +70,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main ]
+
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
@@ -90,8 +96,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
           folder: out
+          branch: gh-pages
           clean: true
 ```
 
@@ -167,7 +173,7 @@ This project is under the MIT License. See the `LICENSE` file for more details.
 ## 👤 Author
 
 - GitHub: [@dmarcosl](https://github.com/dmarcosl)
-- LinkedIn: [Your LinkedIn profile]
+- LinkedIn: [@dmarcosl](https://linkedin.com/in/dmarcosl)
 
 ## 🤝 Contributing
 

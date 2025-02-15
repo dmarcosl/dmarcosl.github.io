@@ -10,13 +10,26 @@
     "linkedin": "dmarcosl",
     "github_avatar": "23211765"
   },
-  "projects": [
+  "tabs": {
+    "knowledge": "Conocimientos",
+    "projects": "Proyectos"
+  },
+  "knowledge": [
     {
       "id": "python",
-      "title": "Notas sobre Python",
-      "description": "Una guía básica sobre el lenguaje basada en mi experiencia, incluyendo varios frameworks y librerías de Python",
+      "title": "Python",
+      "description": "Experiencia en desarrollo backend con Python, incluyendo Django, FastAPI y librerías de data science",
       "url": "http://dmarcosl.github.io/python-notes",
       "image": "https://raw.githubusercontent.com/github/explore/main/topics/python/python.png"
+    }
+  ],
+  "projects": [
+    {
+      "id": "food-diary",
+      "title": "Food Diary App",
+      "description": "Aplicación multiplataforma de seguimiento de comidas generada por IA, construida con React, TypeScript y Capacitor",
+      "url": "https://github.com/dmarcosl/food-diary",
+      "image": "https://github.com/dmarcosl/food-diary/blob/main/icons/web/icon-512.png?raw=true"
     }
   ]
 } 

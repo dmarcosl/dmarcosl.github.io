@@ -8,9 +8,12 @@ import Link from 'next/link';
 import en from '../public/locales/en/common.json';
 import es from '../public/locales/es/common.json';
 
+type TabType = 'knowledge' | 'projects';
+
 export default function Home() {
   const [theme, setTheme] = useState('dark');
   const [locale, setLocale] = useState('en');
+  const [activeTab, setActiveTab] = useState<TabType>('knowledge');
   const currentYear = new Date().getFullYear();
 
   // Función para obtener las traducciones
@@ -38,12 +41,40 @@ export default function Home() {
     setLocale(locale === 'es' ? 'en' : 'es');
   };
 
+  const renderCards = () => {
+    const items = t(activeTab);
+    return items.map((item: any) => (
+      <Link 
+        key={item.id}
+        href={item.url || '#'}
+        target={item.url ? '_blank' : undefined}
+        className="project-card"
+      >
+        <div className="project-image">
+          <Image
+            src={item.image}
+            alt={`${item.title} Logo`}
+            width={150}
+            height={150}
+            className="tech-logo"
+          />
+        </div>
+        <h3>{item.title}</h3>
+        <p>{item.description}</p>
+      </Link>
+    ));
+  };
+
   return (
     <div className="container">
       <Head>
         <title>{t('title')}</title>
         <meta name="description" content="Personal portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link 
+          rel="icon" 
+          href={`https://avatars.githubusercontent.com/u/${t('social.github_avatar')}`}
+          type="image/png"
+        />
       </Head>
 
       <main>
@@ -71,27 +102,23 @@ export default function Home() {
           <p className="description">{t('description')}</p>
         </div>
 
+        <div className="tabs">
+          <button
+            className={`tab ${activeTab === 'knowledge' ? 'active' : ''}`}
+            onClick={() => setActiveTab('knowledge')}
+          >
+            {t('tabs.knowledge')}
+          </button>
+          <button
+            className={`tab ${activeTab === 'projects' ? 'active' : ''}`}
+            onClick={() => setActiveTab('projects')}
+          >
+            {t('tabs.projects')}
+          </button>
+        </div>
+
         <div className="projects">
-          {t('projects').map((project: any) => (
-            <Link 
-              key={project.id}
-              href={project.url}
-              target="_blank"
-              className="project-card"
-            >
-              <div className="project-image">
-                <Image
-                  src={project.image}
-                  alt={`${project.title} Logo`}
-                  width={150}
-                  height={150}
-                  className="tech-logo"
-                />
-              </div>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-            </Link>
-          ))}
+          {renderCards()}
         </div>
       </main>
 
