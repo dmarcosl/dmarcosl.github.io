@@ -28,8 +28,8 @@
       "id": "food-diary",
       "title": "Food Diary App",
       "description": "Aplicación multiplataforma de seguimiento de comidas generada por IA, construida con React, TypeScript y Capacitor",
-      "url": "https://github.com/dmarcosl/food-diary",
-      "image": "https://github.com/dmarcosl/food-diary/blob/main/icons/web/icon-512.png?raw=true"
+      "url": "https://dmarcosl.github.io/food-diary",
+      "image": "https://github.com/dmarcosl/food-diary/blob/main/icons/web/icon-192.png?raw=true"
     },
     {
       "id": "qr-generator",
