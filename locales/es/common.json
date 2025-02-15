@@ -28,15 +28,15 @@
       "id": "food-diary",
       "title": "Food Diary App",
       "description": "Aplicación multiplataforma de seguimiento de comidas generada por IA, construida con React, TypeScript y Capacitor",
-      "url": "https://github.com/dmarcosl/food-diary",
-      "image": "https://github.com/dmarcosl/food-diary/blob/main/icons/web/icon-512.png?raw=true"
+      "url": "https://dmarcosl.github.io/food-diary",
+      "image": "https://github.com/dmarcosl/food-diary/blob/main/icons/web/icon-192.png"
     },
     {
       "id": "qr-generator",
       "title": "Generador de Códigos QR",
       "description": "Aplicación web generada por IA para generar códigos QR construida con React y Vite",
       "url": "https://dmarcosl.github.io/qr-generator",
-      "image": "https://github.com/dmarcosl/qr-generator/blob/main/qr-code.png?raw=true"
+      "image": "https://github.com/dmarcosl/qr-generator/blob/main/qr-code.png"
     }
   ]
 } 

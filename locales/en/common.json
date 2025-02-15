@@ -28,15 +28,15 @@
       "id": "food-diary",
       "title": "Food Diary App",
       "description": "AI-generated cross-platform meal tracking app built with React, TypeScript and Capacitor",
-      "url": "https://github.com/dmarcosl/food-diary",
-      "image": "https://github.com/dmarcosl/food-diary/blob/main/icons/web/icon-512.png?raw=true"
+      "url": "https://dmarcosl.github.io/food-diary",
+      "image": "https://github.com/dmarcosl/food-diary/blob/main/icons/web/icon-192.png"
     },
     {
       "id": "qr-generator",
       "title": "QR Code Generator",
       "description": "AI-generated web app to generate QR codes built with React and Vite",
       "url": "https://dmarcosl.github.io/qr-generator",
-      "image": "https://github.com/dmarcosl/qr-generator/blob/main/qr-code.png?raw=true"
+      "image": "https://github.com/dmarcosl/qr-generator/blob/main/qr-code.png"
     }
   ]
 } 
