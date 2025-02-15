@@ -10,13 +10,26 @@
     "linkedin": "dmarcosl",
     "github_avatar": "23211765"
   },
-  "projects": [
+  "tabs": {
+    "knowledge": "Knowledge",
+    "projects": "Projects"
+  },
+  "knowledge": [
     {
       "id": "python",
       "title": "Python Notes",
       "description": "A basic guide about the language based on my experience, including various Python frameworks and libraries",
       "url": "http://dmarcosl.github.io/python-notes",
       "image": "https://raw.githubusercontent.com/github/explore/main/topics/python/python.png"
+    }
+  ],
+  "projects": [
+    {
+      "id": "food-diary",
+      "title": "Food Diary App",
+      "description": "AI-generated cross-platform meal tracking app built with React, TypeScript and Capacitor",
+      "url": "https://github.com/dmarcosl/food-diary",
+      "image": "https://github.com/dmarcosl/food-diary/blob/main/icons/web/icon-512.png?raw=true"
     }
   ]
 } 
