@@ -1,0 +1,22 @@
+{
+  "title": "Daniel Marcos Lorrio",
+  "name": "Daniel Marcos Lorrio",
+  "role": "Arquitecto de Software",
+  "description": "Soy un arquitecto de software con una amplia experiencia de más de 8 años. Tengo experiencia práctica en diversas tecnologías y he estado involucrado en todo el proceso, desde el análisis de requisitos y diseño de soluciones hasta la implementación y entrega.",
+  "built-with": "Creado con",
+  "technologies": "Next.js + TypeScript + SASS + React",
+  "social": {
+    "github": "dmarcosl",
+    "linkedin": "dmarcosl",
+    "github_avatar": "23211765"
+  },
+  "projects": [
+    {
+      "id": "python",
+      "title": "Notas sobre Python",
+      "description": "Una guía básica sobre el lenguaje basada en mi experiencia, incluyendo varios frameworks y librerías de Python",
+      "url": "http://dmarcosl.github.io/python-notes",
+      "image": "https://raw.githubusercontent.com/github/explore/main/topics/python/python.png"
+    }
+  ]
+} 
