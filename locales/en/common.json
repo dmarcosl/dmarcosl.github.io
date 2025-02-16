@@ -2,6 +2,8 @@
   "title": "Daniel Marcos Lorrio",
   "name": "Daniel Marcos Lorrio",
   "role": "Software Architect",
+  "welcome": "Welcome to my GitHub page! Here you can find programming language notes, personal projects, and other things I've been working on in my free time.",
+  "cv_link": "Check out my CV",
   "description": "I'm a software architect with a broad range of experience spanning over 8 years. I have hands-on expertise across various technologies, and I've been involved in everything from requirements analysis and solution design to implementation and delivery.",
   "built-with": "Built with",
   "technologies": "Next.js + TypeScript + SASS + React",
