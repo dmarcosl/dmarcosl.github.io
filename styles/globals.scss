@@ -91,6 +91,28 @@ body {
     margin-bottom: 2rem;
     line-height: 1.6;
   }
+
+  .cv-link {
+    display: inline-block;
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: var(--text-color);
+      color: var(--bg-color);
+    }
+  }
+
+  .welcome {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    color: var(--secondary-color);
+  }
 }
 
 footer {

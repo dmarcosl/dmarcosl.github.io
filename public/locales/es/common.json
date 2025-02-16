@@ -2,6 +2,8 @@
   "title": "Daniel Marcos Lorrio",
   "name": "Daniel Marcos Lorrio",
   "role": "Arquitecto de Software",
+  "welcome": "¡Bienvenido a mi página de GitHub! Aquí puedes encontrar apuntes de lenguajes de programación, proyectos personales y otras cosas en las que he estado trabajando en mi tiempo libre.",
+  "cv_link": "Ver mi CV",
   "description": "Soy un arquitecto de software con una amplia experiencia de más de 8 años. Tengo experiencia práctica en diversas tecnologías y he estado involucrado en todo el proceso, desde el análisis de requisitos y diseño de soluciones hasta la implementación y entrega.",
   "built-with": "Creado con",
   "technologies": "Next.js + TypeScript + SASS + React",

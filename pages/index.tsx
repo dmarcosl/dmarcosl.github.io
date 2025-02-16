@@ -99,7 +99,15 @@ export default function Home() {
           <h1>{t('name')}</h1>
           <h2>{t('role')}</h2>
           
-          <p className="description">{t('description')}</p>
+          <Link 
+            href="https://dmarcosl.github.io/cv/"
+            target="_blank"
+            className="cv-link"
+          >
+            {t('cv_link')}
+          </Link>
+          
+          <p className="welcome">{t('welcome')}</p>
         </div>
 
         <div className="tabs">
