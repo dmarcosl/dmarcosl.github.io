@@ -27,16 +27,23 @@
   ],
   "projects": [
     {
+      "id": "loan-calculator",
+      "title": "Calculadora de Préstamos",
+      "description": "Calculadora de préstamos con diferentes tipos de préstamos para varios métodos de amortización, períodos de pago y número de pagadores",
+      "url": "https://dmarcosl.github.io/loan-calculator",
+      "image": "https://github.com/dmarcosl/loan-calculator/blob/main/public/calculator.svg?raw=true"
+    },
+    {
       "id": "food-diary",
       "title": "Food Diary App",
-      "description": "Aplicación multiplataforma de seguimiento de comidas generada por IA, construida con React, TypeScript y Capacitor",
+      "description": "Aplicación multiplataforma para rastrear tus comidas y sus ingredientes",
       "url": "https://dmarcosl.github.io/food-diary",
       "image": "https://github.com/dmarcosl/food-diary/blob/main/icons/web/icon-192.png?raw=true"
     },
     {
       "id": "qr-generator",
       "title": "Generador de Códigos QR",
-      "description": "Aplicación web generada por IA para generar códigos QR construida con React y Vite",
+      "description": "Aplicación web para generar códigos QR personalizados con varias opciones de estilo",
       "url": "https://dmarcosl.github.io/qr-generator",
       "image": "https://github.com/dmarcosl/qr-generator/blob/main/qr-code.png?raw=true"
     }
