@@ -4,7 +4,6 @@
   "role": "Software Architect",
   "welcome": "Welcome to my GitHub page! Here you can find programming language notes, personal projects, and other things I've been working on in my free time.",
   "cv_link": "Check out my CV",
-  "description": "I'm a software architect with a broad range of experience spanning over 8 years. I have hands-on expertise across various technologies, and I've been involved in everything from requirements analysis and solution design to implementation and delivery.",
   "built-with": "Built with",
   "technologies": "Next.js + TypeScript + SASS + React",
   "social": {
@@ -23,6 +22,13 @@
       "description": "A basic guide about the language based on my experience, including various Python frameworks and libraries",
       "url": "http://dmarcosl.github.io/python-notes",
       "image": "https://raw.githubusercontent.com/github/explore/main/topics/python/python.png"
+    },
+    {
+      "id": "unity-prototyping",
+      "title": "Unity Prototyping Notes",
+      "description": "Notes to learn how to prototype projects in Unity to implement core mechanics for quickly testing ideas",
+      "url": "http://dmarcosl.github.io/unity-prototyping",
+      "image": "https://raw.githubusercontent.com/github/explore/main/topics/unity/unity.png"
     }
   ],
   "projects": [

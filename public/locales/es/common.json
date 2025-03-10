@@ -4,7 +4,6 @@
   "role": "Arquitecto de Software",
   "welcome": "¡Bienvenido a mi página de GitHub! Aquí puedes encontrar apuntes de lenguajes de programación, proyectos personales y otras cosas en las que he estado trabajando en mi tiempo libre.",
   "cv_link": "Ver mi CV",
-  "description": "Soy un arquitecto de software con una amplia experiencia de más de 8 años. Tengo experiencia práctica en diversas tecnologías y he estado involucrado en todo el proceso, desde el análisis de requisitos y diseño de soluciones hasta la implementación y entrega.",
   "built-with": "Creado con",
   "technologies": "Next.js + TypeScript + SASS + React",
   "social": {
@@ -19,10 +18,17 @@
   "knowledge": [
     {
       "id": "python",
-      "title": "Python",
-      "description": "Experiencia en desarrollo backend con Python, incluyendo Django, FastAPI y librerías de data science",
+      "title": "Notas de Python",
+      "description": "Una guía básica sobre el lenguaje basada en mi experiencia, incluyendo varios frameworks y bibliotecas de Python",
       "url": "http://dmarcosl.github.io/python-notes",
       "image": "https://raw.githubusercontent.com/github/explore/main/topics/python/python.png"
+    },
+    {
+      "id": "unity-prototyping",
+      "title": "Prototipado en Unity",
+      "description": "Notas para aprender a crear prototipos de proyectos en Unity para implementar mecánicas básicas para probar ideas rápidamente",
+      "url": "http://dmarcosl.github.io/unity-prototyping",
+      "image": "https://raw.githubusercontent.com/github/explore/main/topics/unity/unity.png"
     }
   ],
   "projects": [
