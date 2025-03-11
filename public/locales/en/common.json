@@ -24,8 +24,15 @@
       "image": "https://raw.githubusercontent.com/github/explore/main/topics/python/python.png"
     },
     {
+      "id": "unity-development",
+      "title": "Unity Development",
+      "description": "Complete guide to learn all of the IDE of Unity",
+      "url": "http://dmarcosl.github.io/unity-development",
+      "image": "https://raw.githubusercontent.com/github/explore/main/topics/unity/unity.png"
+    },
+    {
       "id": "unity-prototyping",
-      "title": "Unity Prototyping Notes",
+      "title": "Unity Prototyping",
       "description": "Notes to learn how to prototype projects in Unity to implement core mechanics for quickly testing ideas",
       "url": "http://dmarcosl.github.io/unity-prototyping",
       "image": "https://raw.githubusercontent.com/github/explore/main/topics/unity/unity.png"

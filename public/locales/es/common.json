@@ -24,6 +24,13 @@
       "image": "https://raw.githubusercontent.com/github/explore/main/topics/python/python.png"
     },
     {
+      "id": "unity-development",
+      "title": "Desarrollo en Unity",
+      "description": "Guía completa para aprender todo el IDE de Unity",
+      "url": "http://dmarcosl.github.io/unity-development",
+      "image": "https://raw.githubusercontent.com/github/explore/main/topics/unity/unity.png"
+    },
+    {
       "id": "unity-prototyping",
       "title": "Prototipado en Unity",
       "description": "Notas para aprender a crear prototipos de proyectos en Unity para implementar mecánicas básicas para probar ideas rápidamente",
