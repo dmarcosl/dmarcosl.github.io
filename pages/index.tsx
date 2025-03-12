@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { FaGithub, FaLinkedin, FaSun, FaMoon } from 'react-icons/fa';
 import Link from 'next/link';
+import GoogleAnalytics from '../components/GoogleAnalytics';
 
 // Importar traducciones directamente
 import en from '../public/locales/en/common.json';
@@ -76,6 +77,8 @@ export default function Home() {
           type="image/png"
         />
       </Head>
+
+      <GoogleAnalytics />
 
       <main>
         <div className="theme-toggle">
