@@ -59,6 +59,13 @@
       "description": "Web application to generate customized QR codes with various styling options",
       "url": "https://dmarcosl.github.io/qr-generator",
       "image": "https://github.com/dmarcosl/qr-generator/blob/main/qr-code.png?raw=true"
+    },
+    {
+      "id": "countdowns-webapp",
+      "title": "Countdowns Web App",
+      "description": "Web application to create and manage countdown timers",
+      "url": "https://dmarcosl.github.io/countdowns-webapp/",
+      "image": "https://github.com/dmarcosl/countdowns-webapp/blob/main/public/logo.png?raw=true"
     }
   ]
 } 
