@@ -1,8 +1,8 @@
 {
   "title": "Daniel Marcos Lorrio",
   "name": "Daniel Marcos Lorrio",
-  "role": "Software Architect",
-  "welcome": "Welcome to my GitHub page! Here you can find programming language notes, personal projects, and other things I've been working on in my free time.",
+  "role": "AI Engineer / Software Architect",
+  "welcome": "I design LLM-, RAG-, and agent-based AI systems that combine knowledge retrieval, tool orchestration, and conversational interfaces for production environments.",
   "cv_link": "Check out my CV",
   "built-with": "Built with",
   "technologies": "Next.js + TypeScript + SASS + React",
@@ -66,6 +66,34 @@
       "description": "Web application to create and manage countdown timers",
       "url": "https://dmarcosl.github.io/countdowns-webapp/",
       "image": "https://github.com/dmarcosl/countdowns-webapp/blob/main/public/logo.png?raw=true"
+    },
+    {
+      "id": "lifequest",
+      "title": "LifeQuest",
+      "description": "A Django modular monolith for gamified personal productivity: workspaces, recurring tasks, a points economy, and a reward shop.",
+      "url": "https://github.com/dmarcosl/lifequest",
+      "image": "https://raw.githubusercontent.com/github/explore/main/topics/django/django.png"
+    },
+    {
+      "id": "youtube-live-notifications",
+      "title": "YouTube Live Notifications",
+      "description": "A native macOS menu bar app that detects scheduled or live YouTube streams and notifies once per event.",
+      "url": "https://github.com/dmarcosl/youtube-live-notifications",
+      "image": "https://raw.githubusercontent.com/github/explore/main/topics/swift/swift.png"
+    },
+    {
+      "id": "spring-ai-mcp-demo",
+      "title": "MCP Agent Demo",
+      "description": "A Spring AI agent demo that discovers and uses tools from two MCP servers, with a REST API and Angular visualizations.",
+      "url": "https://github.com/dmarcosl/spring-ai-mcp-demo",
+      "image": "https://raw.githubusercontent.com/github/explore/main/topics/spring-boot/spring-boot.png"
+    },
+    {
+      "id": "api-performance-comparison",
+      "title": "API Performance Comparison",
+      "description": "An API performance comparison of Rust with Axum and Java with WebFlux and RestClient, instrumented with Grafana.",
+      "url": "https://github.com/dmarcosl/api-performance-comparison",
+      "image": "https://raw.githubusercontent.com/github/explore/main/topics/rust/rust.png"
     }
   ]
-} 
+}
