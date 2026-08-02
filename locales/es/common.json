@@ -1,8 +1,8 @@
 {
   "title": "Daniel Marcos Lorrio",
   "name": "Daniel Marcos Lorrio",
-  "role": "Arquitecto de Software",
-  "welcome": "¡Bienvenido a mi página de GitHub! Aquí puedes encontrar apuntes de lenguajes de programación, proyectos personales y otras cosas en las que he estado trabajando en mi tiempo libre.",
+  "role": "AI Engineer / Arquitecto de Software",
+  "welcome": "Diseño sistemas de IA basados en LLMs, RAG y arquitecturas de agentes, combinando recuperación de conocimiento, orquestación de herramientas y sistemas conversacionales para entornos productivos.",
   "cv_link": "Ver mi CV",
   "built-with": "Creado con",
   "technologies": "Next.js + TypeScript + SASS + React",
@@ -66,6 +66,34 @@
       "description": "Aplicación web para crear y gestionar temporizadores",
       "url": "https://dmarcosl.github.io/countdowns-webapp/",
       "image": "https://github.com/dmarcosl/countdowns-webapp/blob/main/public/logo.png?raw=true"
+    },
+    {
+      "id": "lifequest",
+      "title": "LifeQuest",
+      "description": "Monolito modular de Django para productividad gamificada: espacios de trabajo, tareas recurrentes, economía basada en puntos y tienda de recompensas.",
+      "url": "https://github.com/dmarcosl/lifequest",
+      "image": "https://raw.githubusercontent.com/github/explore/main/topics/django/django.png"
+    },
+    {
+      "id": "youtube-live-notifications",
+      "title": "YouTube Live Notifications",
+      "description": "App nativa de macOS en la barra de menús que detecta directos programados o activos de YouTube y avisa una vez por evento.",
+      "url": "https://github.com/dmarcosl/youtube-live-notifications",
+      "image": "https://raw.githubusercontent.com/github/explore/main/topics/swift/swift.png"
+    },
+    {
+      "id": "spring-ai-mcp-demo",
+      "title": "MCP Agent Demo",
+      "description": "Demo de un agente Spring AI que descubre y usa herramientas de dos servidores MCP, con API REST y visualizaciones en Angular.",
+      "url": "https://github.com/dmarcosl/spring-ai-mcp-demo",
+      "image": "https://raw.githubusercontent.com/github/explore/main/topics/spring-boot/spring-boot.png"
+    },
+    {
+      "id": "api-performance-comparison",
+      "title": "API Performance Comparison",
+      "description": "Comparativa de rendimiento de APIs entre Rust con Axum y Java con WebFlux y RestClient, instrumentada con Grafana.",
+      "url": "https://github.com/dmarcosl/api-performance-comparison",
+      "image": "https://raw.githubusercontent.com/github/explore/main/topics/rust/rust.png"
     }
   ]
-} 
+}
